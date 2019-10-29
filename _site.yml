@@ -5,8 +5,6 @@ navbar:
   left:
     - text: "Professional Experiences"
       href: about.html
-    - text: "Old website"
-      href: http://google.com
     - text: "Instacart"
       href: problem2.html
   right:
@@ -18,4 +16,4 @@ navbar:
       href: http://github.com/doubbymary
 output:
   html_document:
-    theme: united
+    theme: sandstone

@@ -2,12 +2,12 @@
 title: "Instacart 2017 Dashboard"
 output: 
   flexdashboard::flex_dashboard:
+    theme: sandstone
     orientation: columns
     vertical_layout: fill
     navbar:
       - { title: "Home", href: "index.html", align: left }
       - { title: "Professional Experiences", href: "about.html", align: left }
-      - { title: "Old website", href: "http://google.com", align: left }
       - { icon: fa-linkedin fa-lg, href: "https://www.linkedin.com/in/xiaoyue-mary-ma/", align: right }
       - { icon: fa-envelope fa-lg, href: "mailto:<xm2229@cumc.columbia.edu>", align: right }
       - { icon: fa-github fa-lg, href: "http://github.com/doubbymary", align: right }
