@@ -1,0 +1,59 @@
+---
+title: "problem2"
+author: "Xiaoyue Ma"
+date: "10/29/2019"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+```
+
+## Importing data and cleaning
+
+```{r, message=FALSE}
+set.seed(1)
+
+data("instacart")
+instacart = instacart %>%
+  select(order_dow, order_hour_of_day, department, add_to_cart_order) %>%
+  filter(!is.na(order_dow),
+         !is.na(order_hour_of_day)) %>%
+  sample_n(6000)
+
+popular_dep = instacart %>%
+  count(department, sort = TRUE) %>%
+  top_n(8) %>%
+  select(department)
+```
+
+## scatter plot
+
+```{r}
+inner_join(instacart, popular_dep, by="department") %>%
+  mutate(text_label = str_c("Day of week: ", order_dow, 
+                            "\nHour of day: ", order_hour_of_day)) %>%
+  plot_ly(x = ~order_dow, y = ~order_hour_of_day, type = "scatter", mode = "markers",
+          color = ~department, text = ~text_label, colors = "Set1")
+```
+
+## box plot
+
+```{r}
+inner_join(instacart, popular_dep, by="department") %>%
+  mutate(department = fct_reorder(department, add_to_cart_order)) %>%
+  plot_ly(y = ~add_to_cart_order, color = ~department, type = "box", colors = "Set2")
+```
+
+## bar plot
+
+```{r}
+instacart %>% 
+  count(department) %>% 
+  mutate(department = fct_reorder(department, n)) %>% 
+  plot_ly(x = ~department, y = ~n, color = ~department, type = "bar", colors = "Set3")
+```
+
