@@ -1,20 +1,24 @@
 ---
-title: "problem2"
-author: "Xiaoyue Ma"
-date: "10/29/2019"
-output: github_document
+title: "Instacart 2017 Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    navbar:
+      - { title: "Home", href: "index.html", align: left }
+      - { title: "Professional Experiences", href: "about.html", align: left }
+      - { title: "Old website", href: "http://google.com", align: left }
+      - { icon: fa-linkedin fa-lg, href: "https://www.linkedin.com/in/xiaoyue-mary-ma/", align: right }
+      - { icon: fa-envelope fa-lg, href: "mailto:<xm2229@cumc.columbia.edu>", align: right }
+      - { icon: fa-github fa-lg, href: "http://github.com/doubbymary", align: right }
 ---
 
 ```{r setup, include=FALSE}
+library(flexdashboard)
 library(tidyverse)
 library(viridis)
 library(p8105.datasets)
 library(plotly)
-```
-
-## Importing data and cleaning
-
-```{r, message=FALSE}
 set.seed(1)
 
 data("instacart")
@@ -30,17 +34,23 @@ popular_dep = instacart %>%
   select(department)
 ```
 
-## scatter plot
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### The hour of the day and day of the week for each order in different departments
 
 ```{r}
 inner_join(instacart, popular_dep, by="department") %>%
   mutate(text_label = str_c("Day of week: ", order_dow, 
                             "\nHour of day: ", order_hour_of_day)) %>%
   plot_ly(x = ~order_dow, y = ~order_hour_of_day, type = "scatter", mode = "markers",
-          color = ~department, text = ~text_label, colors = "Set1")
+          color = ~department, text = ~text_label, colors = "Set1", alpha = 1)
 ```
 
-## box plot
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Number of orders added to the cart for selected department
 
 ```{r}
 inner_join(instacart, popular_dep, by="department") %>%
@@ -48,7 +58,7 @@ inner_join(instacart, popular_dep, by="department") %>%
   plot_ly(y = ~add_to_cart_order, color = ~department, type = "box", colors = "Set2")
 ```
 
-## bar plot
+### Number of items purchased within each department
 
 ```{r}
 instacart %>% 
