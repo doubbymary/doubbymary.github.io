@@ -4,14 +4,17 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
 ## Welcome!
 
 This website is build by [Mary Ma](https://www.linkedin.com/in/xiaoyue-mary-ma/) through R and hosted by [github](https://github.com/doubbymary/doubbymary.github.io). Feel free to browse around and click the links above to know more about myself.
 
-In this webiste I included my personal resume at the __professiona experience__ tab; an data visualization page of ["The Instacart Online Grocery Shopping Dataset 2017"](https://www.instacart.com/datasets/grocery-shopping-2017) created with `plotly` and `flex dashboard`; a link to my old personal website created purely through `html` and `css`.
+In this webiste includes:
+
+  1. my personal resume at the __professional experience__ tab
+  2. an data visualization page of ["The Instacart Online Grocery Shopping Dataset 2017"](https://www.instacart.com/datasets/grocery-shopping-2017) created with `plotly` and `flex dashboard`
+  3. a link to my old personal website created purely through `html` and `css`.
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
