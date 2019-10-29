@@ -1,5 +1,5 @@
 ---
-title: "My awesome website"
+title: "Mary Ma's awesome website"
 output: 
   html_document:
     toc: true
@@ -7,6 +7,11 @@ output:
     theme: cerulean
 ---
 
-# This is Jeff's awesome website
+# Welcome!
+
+This website is build by [Mary Ma](https://www.linkedin.com/in/xiaoyue-mary-ma/) through R and hosted by [github](https://github.com/doubbymary/doubbymary.github.io). Feel free to browse around and click the links above to know more about myself.
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+# Introduction
+

@@ -1,0 +1,88 @@
+---
+title: "Professional Experiences"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+
+---
+
+# Education
+
+__Columbia University Mailman School of Public Health (Expected May 2020)__
+
+  * Degree: Master of Health Administration
+  * GPA: 3.7
+  * Coursework: Strategy Management, Comparative Strategic Analysis, Healthcare Consolidation, Healthcare Marketing, Health Economics, Healthcare Finance, Analytics & Managerial Decision-Making, Health Policy & Management
+  
+__Boston University College of Communication (May 2018)__
+
+  * Degree: Bachelor of Science in Communication
+  * GPA: 3.7
+  * Minor: Film & TV
+  * Dual Emphasis in Public Relations and Advertising
+  
+# Professional Experiences
+
+__New York State Department of Health, New York, NY (Sept 2019—Present)__
+
+_Digital Health Intern_
+
+  *  Developed and implemented social media and digital marketing strategies for the YGetIt? project, a HRSA-funded study exploring how a mobile app and online comic series helping providers engage with HIV-affected youth
+  * Conducted research on young individuals’ social media preference for obtaining health information to influence how the DOH disseminates information
+  * Performed quantitative and qualitative analysis on collected social media comment data to improve patients’ engagement
+  * Created proposals and visualized data to demonstrate the effectiveness of digital health
+  
+__Metropolitan Hospital, New York, NY (May 2019—Sept 2019)__  
+
+_DSRIP and Patient Engagement Intern_
+
+  * Monitored patients’ EMR visit history, collected their medical information, and communicated with PCPs for needs assessments, internal consults, and transition management team referrals, resulting in a referral rate increase from 55% to 100%
+  * Analyze patients’ satisfaction data and created strategies of shifting nurses schedule based on analysis on patients satisfaction data showing a dip in patient satisfaction level between 1pm-2mp
+  * Facilitated and mediated interdisciplinary meetings between clinical and non-clinical providers in an effort to understand disparities in stakeholder expectations, align incentives, and reconcile communication issues
+  
+__Weber Shandwick, Beijing, China (May 2017—July 2017)__
+
+_Account Executive Intern_
+
+  * Collected KPI, drafted weekly presentations, and communicated consulting plans with clients, improving efficiency by 5%
+  * Designed blog posts, digital images and videos, increasing MasterCard customer engagement by 30%
+  * Analyzed different options of media outlets to select the most effective advertising media, bringing 50 customers within one day
+
+__Stephanie Churchill PR, London, UK (Sept 2016—Dec 2016)__
+
+_Junior Account Executive_
+
+  * Successfully coordinated high level product launch events; used SWOT analysis to find product’s highlights, sent press release, and attracted more than 30 media personnel and stylists to the events that led to 80% increase of daily media coverage
+  * Managed and facilitated celebrities’ requests for designers samples, increasing clients’ media exposure by 100%
+  
+
+# Relevant Academic Experience
+
+__Mailman School of Public Health, Consulting Practice (Sept 2019—Present)__
+
+_New York City Hotel Trade Council Clinic Center_
+
+  * Reviewed Hotel Trades Health Center customer service practices across four health center locations, constructed a Customer Service Manual, and created options for staff appreciation events
+  
+# Leadership
+
+__Mailman School of Public Health Graduate Student Association, New York, NY (Sept 2018—Present)__
+
+_Vice President of Student Affair_
+
+  * Organized three student body forums to collect students’ concerns of academic curriculum and student life, communicated with school senior leaders, and developed solutions
+
+__Citrus Education, Boston, MA (Oct 2017—Present)__
+
+_Founder and CEO_
+
+  * Launched a startup company dedicated to creating an online community for undergraduate students to connect and build mentor- mentee relationships with graduate school students, resulting 40 mentor-mentee matches
+  * Used qualitative research to identify the demographic and market opportunities, fully understand students’ persona, and created social media content to attract target audience, increasing awareness by 200%
+  
+# Skills & Interests
+
+  * Language: Mandarin; English; Conversational French
+  * Technical: MS Office(Excel, PowerPoint)-advanced; Mac iwork-advanced; Adobe Animation CC-advanced; R-intermediate;
+PhotoShop-intermediate; Tableau-basic; Jasp-basic; Hootsuite-certified
+  * Interests: Reading celebrities’ biographies, Traveling to beautiful beaches, Making Asian food
