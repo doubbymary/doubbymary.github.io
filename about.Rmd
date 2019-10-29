@@ -7,7 +7,7 @@ output:
 
 ---
 
-# Education
+## Education
 
 __Columbia University Mailman School of Public Health (Expected May 2020)__
 
@@ -22,7 +22,7 @@ __Boston University College of Communication (May 2018)__
   * Minor: Film & TV
   * Dual Emphasis in Public Relations and Advertising
   
-# Professional Experiences
+## Professional Experiences
 
 __New York State Department of Health, New York, NY (Sept 2019—Present)__
 
@@ -57,7 +57,7 @@ _Junior Account Executive_
   * Managed and facilitated celebrities’ requests for designers samples, increasing clients’ media exposure by 100%
   
 
-# Relevant Academic Experience
+## Relevant Academic Experience
 
 __Mailman School of Public Health, Consulting Practice (Sept 2019—Present)__
 
@@ -65,7 +65,7 @@ _New York City Hotel Trade Council Clinic Center_
 
   * Reviewed Hotel Trades Health Center customer service practices across four health center locations, constructed a Customer Service Manual, and created options for staff appreciation events
   
-# Leadership
+## Leadership
 
 __Mailman School of Public Health Graduate Student Association, New York, NY (Sept 2018—Present)__
 
@@ -80,7 +80,7 @@ _Founder and CEO_
   * Launched a startup company dedicated to creating an online community for undergraduate students to connect and build mentor- mentee relationships with graduate school students, resulting 40 mentor-mentee matches
   * Used qualitative research to identify the demographic and market opportunities, fully understand students’ persona, and created social media content to attract target audience, increasing awareness by 200%
   
-# Skills & Interests
+## Skills & Interests
 
   * Language: Mandarin; English; Conversational French
   * Technical: MS Office(Excel, PowerPoint)-advanced; Mac iwork-advanced; Adobe Animation CC-advanced; R-intermediate;
